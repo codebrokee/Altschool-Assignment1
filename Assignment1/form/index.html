@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-page</title>
+</head>
+<body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="form.html">Create Account</a></li>
+          <li><a href="index.html">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h1>Application Form</h1>
+      <p>Fill in your details</p>
+      <form>
+        <label for="First Name">First Name</label>
+        <input type="text" name="First Name" required><br><br>
+        
+        <label for="Last Name">Last Name</label>
+        <input type="text" name="Last Name" required><br><br>
+        
+        <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" required><br><br>
+      
+      <label for="email">Email Address:</label>
+      <input type="email" required><br><br>
+      
+      <label for="educationLevel">Education Level:</label>
+      <select required>
+        <option value="highSchool">High School</option>
+        <option value="college">College</option>
+        <option value="graduate">Graduate</option>
+        <option value="other">Other</option>
+      </select><br><br>
+      
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required><br><br>
+      
+      <label for="stateCity">State/City of Residence:</label>
+      <input type="text" id="stateCity" name="stateCity" required><br><br>
+      
+      <label for="employmentStatus">Employment Status:</label>
+      <select id="employmentStatus" name="employmentStatus" required>
+        <option value="employed">Employed</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="student">Student</option>
+        <option value="other">Other</option>
+      </select><br><br>
+      
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+
+      <label>Choose School</label>
+      <select required>
+        <option value="School of Engineering">School of Engineering</option>
+        <option value="School of Product">School of Product</option>
+        <option value="School of Data">School of Data</option>
+      </select><br><br>
+      
+      <label>Select Course</label>
+      <select required>
+        <option value="FrontEnd Engineering">FrontEnd Engineering</option>
+        <option value="Backend Engineering">Backend Engineering</option>
+        <option value="Cloud Computing">Cloud Computing</option>
+      </select><br><br>
+
+      <label for="">How did you hear about us?</label>
+      <input type="text">
+
+      </form>
+    </main>
+  </body>
+</html>
